@@ -1,0 +1,29 @@
+{
+  "name": "my-first-cli-test-demo",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "bin": "/bin/cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Jackie-llv/test-cli.git"
+  },
+  "dependencies": {
+    "axios": "^1.2.0",
+    "chalk": "^4.0.0",
+    "commander": "^9.4.1",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.2",
+    "fs-extra": "^11.1.0",
+    "git-clone": "^0.2.0",
+    "inquirer": "^8.0.0",
+    "ora": "^5.0.0",
+    "util": "^0.12.5"
+  }
+}
